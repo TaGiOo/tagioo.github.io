@@ -182,6 +182,8 @@ header{
     justify-content: space-around;
     z-index: 100;
     border-bottom: white solid 2px;
+    background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/lofi room.png');
+
 }
 
 h1{
