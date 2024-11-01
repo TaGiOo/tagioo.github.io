@@ -838,9 +838,8 @@ footer a{
     header h3{
         display: none;
     }    
-    header a{
-        margin: 0.5rem;
-
+    ul{
+        padding: 0rem;
     }
     .reseaux li{
         display: none;
