@@ -138,19 +138,14 @@ html{
 
 
 body{
-
     width: 100%;
-
     color: white;
-
-    background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/bg.png');
-
     font-family: 'Aktiv Grotesk Light';
-
     background-color: #232120;
-
     padding: none;
-
+}
+main{
+    background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/bg.png');
 }
 
 h3{
@@ -183,7 +178,6 @@ header{
     z-index: 100;
     border-bottom: white solid 2px;
     background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/lofi room.png');
-
 }
 
 h1{
