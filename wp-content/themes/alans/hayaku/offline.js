@@ -1,0 +1,31 @@
+﻿{
+	"version": 1646666166,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/chara-sheet0.png",
+		"images/chara-sheet1.png",
+		"images/coin-sheet0.png",
+		"images/obs1-sheet0.png",
+		"images/spawner-sheet0.png",
+		"images/bg-sheet0.png",
+		"images/bg-sheet1.png",
+		"images/bg-sheet2.png",
+		"images/bg-sheet3.png",
+		"images/bg-sheet4.png",
+		"images/bg-sheet5.png",
+		"images/sol-sheet0.png",
+		"images/platdorme-sheet0.png",
+		"images/obs2-sheet0.png",
+		"images/obs3-sheet0.png",
+		"images/backg.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}

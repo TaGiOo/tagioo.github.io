@@ -1,0 +1,393 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 07:10:33
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 8.1.4                                 |7.4.25
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2022-04-06 16:29:08
+WP VERSION__________: 5.9.2
+DUP VERSION_________: 1.4.4
+DB__________________: 10.4.24
+DB TABLES___________: 13
+DB ROWS_____________: 256
+DB FILE SIZE________: 1.7MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/alansfm/www"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://alansfm.cluster031.hosting.ovh.net/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/alansfm/www/20220406_alansiviniantportfolio_[HASH]_20220406162908_archive.zip"
+SIZE________________: 35.5MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:touch(): Unable to create file /home/alansfm/www/index.html.ovh.old because No such file or directory [CODE:2|FILE:/home/alansfm/www/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:570]
+
+STEP-1 COMPLETE @ 07:10:42 - RUNTIME: 8.4180 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:13:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.50 -- Build Server: 10.4.24
+FILE SIZE:	dup-database__[HASH].sql (151.12KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/alansfm/www/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.50] is less than the build version [10.4.24].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (134)
+wp_postmeta: (45)
+wp_posts: (23)
+wp_term_relationships: (5)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_usermeta: (22)
+wp_users: (1)
+Removed '21' cache/transient rows
+
+INSERT DATA RUNTIME: 0.2440 sec.
+STEP-2 COMPLETE @ 07:13:42 - RUNTIME: 0.2572 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:16:33
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Alan Siviniant - Portfolio"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/alans"
+path_new______________: "/home/alansfm/www"
+siteurl_______________: "http://alans.fr"
+url_old_______________: "http://localhost/alans"
+url_new_______________: "http://alans.fr"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   134][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/alans" ===========================> "/home/alansfm/www"
+	SEARCH  2:"C:\/xampp\/htdocs\/alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Falans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  4:"C:\xampp\htdocs\alans" ===========================> "/home/alansfm/www"
+	SEARCH  5:"C:\\xampp\\htdocs\\alans" ========================> "\/home\/alansfm\/www"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Calans" ===================> "%2Fhome%2Falansfm%2Fwww"
+	SEARCH  7:"//localhost/alans" ===============================> "//alans.fr"
+	SEARCH  8:"\/\/localhost\/alans" ============================> "\/\/alans.fr"
+	SEARCH  9:"%2F%2Flocalhost%2Falans" =========================> "%2F%2Falans.fr"
+	SEARCH 10:"https://alans.fr" ================================> "http://alans.fr"
+	SEARCH 11:"https:\/\/alans.fr" ==============================> "http:\/\/alans.fr"
+	SEARCH 12:"https%3A%2F%2Falans.fr" ==========================> "http%3A%2F%2Falans.fr"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:239 	|	 Cells:1413 
+UPDATED:	Tables:3 	|	 Rows:28 	|	 Cells:32 
+ERRORS:		0 
+RUNTIME:	0.057800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""alansfm321.mysql.db:3306""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:16:33 - RUNTIME: 0.0976 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

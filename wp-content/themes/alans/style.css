@@ -1,0 +1,1082 @@
+/*
+
+Theme Name: AlanS Portfolio
+
+Theme URI: https://alans.fr
+
+Author: Alan Siviniant
+
+Author URI: https://dysign.fr
+
+Description: Le thème wordpress de mon portfolio à base d'hexagones de l'enfer
+
+Requires at least: WordPress 5.0
+
+Version: 1.0
+
+*/
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+strong{
+    font-weight: 600;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+
+.gradient{
+
+    background: linear-gradient(225.33deg, #434DA0 40%, #5F3078 60%);
+
+}
+
+
+
+
+.hexagon{
+
+    overflow: hidden;
+
+    visibility: hidden;
+
+    -webkit-transform: rotate(120deg);
+
+    -moz-transform: rotate(120deg);
+
+    -o-transform: rotate(120deg);
+
+    transform: rotate(120deg);
+
+    cursor: pointer;
+
+  }
+
+.hexagon-in1{   
+    overflow: hidden;
+
+    width: 100%;
+
+    height: 100%;
+
+    -webkit-transform: rotate(-60deg);
+
+    -moz-transform: rotate(-60deg);
+
+    -o-transform: rotate(-60deg);
+
+    transform: rotate(-60deg);
+
+  }
+
+.hexagon-in2{
+
+    width: 100%;
+
+    height: 100%;
+
+    background-repeat: no-repeat;
+
+    background-position: 50%;
+
+    background: linear-gradient(225.33deg, #434DA0 40%, #5F3078 60%);
+
+    visibility: visible;
+
+    -webkit-transform: rotate(-60deg);
+
+    -moz-transform: rotate(-60deg);
+
+    -o-transform: rotate(-60deg);
+
+    transform: rotate(-60deg);
+
+  }
+
+.hexagon-in2:hover{
+
+    background: linear-gradient(225.33deg, #4773C1 30%, #9E45CD 70%);
+
+  }
+
+
+
+
+.hexagonpiti2{
+
+    margin-right: 0px;
+
+    width: 6.25rem;
+
+    height: 12.5rem;
+
+  }
+
+.hexagon2{
+
+    margin-right: 0px;
+
+    width: 12.5rem;
+
+    height: 25rem;
+
+  }
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+body{
+
+    width: 100%;
+
+    color: white;
+
+    background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/bg.png');
+
+    font-family: 'Aktiv Grotesk Light';
+
+    background-color: #232120;
+
+    padding: none;
+
+}
+
+h3{
+    font-family: 'Helvetica';
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: none;
+    background-color: #232120;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+    border-bottom: white solid 2px;
+}
+
+h1{
+
+    font-size: 2.5em;
+    font-family: 'Helvetica';
+    font-weight: 900;
+    width: 22rem;
+
+}
+
+ul{
+
+    display: flex;
+    align-items: center;
+
+}
+
+ li{
+
+    list-style: none;
+
+    margin-left: 1.7rem;
+
+    margin-right: 1.7rem;
+
+    align-items: center;
+
+    font-size: 1.1em;
+
+}
+.reseaux{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+#moncv{
+    margin-bottom: -3rem;
+    font-size: 1.3em;
+    margin-left: 1rem;
+    position: relative; 
+    top: 0.45rem;
+}
+
+#cv{
+    border-bottom: 2.5rem solid #434DA0;
+    border-left: 3.5rem solid transparent;
+    width: 7rem;
+    padding-right: 3rem;
+    margin-right: -3rem;
+}
+
+#cv:hover{
+    border-bottom:2.5rem solid #5F3078;
+    transition: 0.2s ease-out;
+}
+
+.menu{
+
+    align-items: center;
+
+}
+
+
+.menu>li:hover{
+
+    transform: scale(1.06);
+
+    transition: 0.2s ease-out;
+
+}
+
+.scale:hover{
+
+    transform: scale(1.06);
+
+    transition: 0.2s ease-out;
+
+}
+
+
+#hexflex1{
+    display: flex;
+    justify-content: center;
+}
+#hexflex2{
+    display: flex;
+    justify-content: center;
+}
+
+#hexflex1>div{
+    margin: 1.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: -13.3rem;
+}
+#hexflex2>div{
+    margin-top: -13.3rem;
+    margin: 1.2rem;
+}
+
+.haut h3{
+    position: relative;
+    text-align: center;
+    top: 11.2rem;
+}
+
+
+.haut{
+    display: flex;
+    flex-direction: column;
+    height: 39rem;
+}
+
+
+
+
+.titre{
+    background-color: #232120;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.decale{
+    padding-top: 5rem;
+}
+.droit{
+    margin-top: 5rem;
+}
+
+
+h2{
+
+    font-size: 2em;
+
+    width: 20%;
+
+    text-align: center;
+
+}
+
+.trait{
+
+    background-color: white;
+
+    height: 4px;
+
+    width: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+.image{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-direction: column;
+
+}
+
+.image .miniamain{
+
+    height: 20rem;
+
+    border-radius: 2rem;
+
+    margin: 6rem;
+
+    margin-bottom: 1.5rem;
+
+}
+
+.image img:hover{
+
+    transform: scale(1.03);
+
+    cursor: pointer;
+
+    transition: 0.2s ease-out;
+
+
+
+}
+
+.image .miniminia{
+    height: 10rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    margin-bottom: 0.6rem;
+}
+.ligne{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.txt{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin: 0px;
+
+    margin-top: 3rem;
+
+    margin-bottom: 1.5rem;
+
+}
+
+.txt p{
+
+    margin-top: 3rem;
+    text-align: justify;
+    margin-bottom: -8rem;
+    font-size: 1.1em;
+
+}
+
+.cta{
+
+    position: relative;
+
+    top: 5.2rem;
+
+    font-family: 'Helvetica';
+
+    font-size: 1.6em;
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+.gauche{
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.gauche h3{
+
+    margin-right: 12rem;
+
+}
+
+.gauche .txt p{
+
+    margin-right: 12rem;
+    width: 60%;
+
+}
+
+.gauche .hexagonpiti2{
+
+    position: relative;
+
+    top: 38%;
+
+    right: 50%;
+
+}
+
+
+
+.droite{
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.droite h3{
+
+    margin-left: 12rem;
+
+}
+
+.droite .txt p{
+
+    margin-left: 12rem;
+    width: 60%;
+
+}
+
+.droite .hexagonpiti2{
+
+    position: relative;
+
+    top: 38%;
+
+    right: 50%;
+
+}
+
+
+
+
+
+
+.separateur{
+
+    height: 3px;
+
+    width: 50%;
+
+    margin-top: 6rem;
+
+    justify-content: center;
+
+    background-color: white;
+
+}
+
+
+
+footer{
+    margin-top: 3rem;
+    border-top: solid #232120 2.7rem;
+    border-bottom: solid #232120 2.7rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 2px;
+}
+
+footer a{
+    background-color: #232120;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: -2.5rem;
+}
+
+
+
+
+
+
+
+
+#txtprofil{
+
+    display: flex;
+
+}
+
+#txtprofil div{
+
+    width: 40%;
+
+}
+
+#txtprofil h4{
+
+    margin: 3rem;
+
+    margin-top: 1rem;
+
+    font-size: 2em;
+
+    font-weight: 300;
+
+}
+
+#txtprofil p{
+
+    margin: 3rem;
+    text-align: justify;
+    font-size: 1.2em;
+
+}
+
+#txtprofil img{
+
+    border-radius: 2rem;
+
+    height: 40rem;
+
+    margin: 4rem 10rem 0px 3rem;
+
+}
+
+
+
+
+
+.logiciels{
+
+    display: flex;
+
+}
+
+.logiciels *{
+
+    margin: 1.2rem;
+
+}
+
+.l1{
+
+    margin-left: 27%;
+    margin-top: 1rem;
+
+}
+
+.l2{
+
+    margin-left: 16.5%;
+    margin-bottom: -6rem;
+    margin-top: -6rem;
+
+}
+
+.competences h4{
+
+    height: 4rem;
+
+    width: 14rem;
+
+    font-size: 2em;
+
+    font-weight: 300;
+
+    margin: 1.5rem;
+    margin-right: 2.5rem;
+
+    margin-top: 8.5rem;
+
+}
+
+.competences img{
+
+    height: 15.5rem;
+
+}
+
+.w1{
+
+    margin-left: 16.5%;
+
+    margin-top: 1rem;
+
+}
+
+.w2{
+
+    margin-left: 26.5%;
+
+    margin-top: -6rem;
+
+}
+
+.competences{
+    margin-bottom: -5rem;
+}
+
+
+
+.langues{
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.langues img{
+    height: 16rem;
+    margin-top: 4rem;
+}
+
+
+
+
+
+.hoverhex{
+
+    height: 18rem;
+
+}
+
+.hoverhex:hover p{
+
+    opacity: 100%;
+
+    transition: 0.2s ease-out;
+
+}
+
+.hoverhex:hover img{
+
+    transform: scale(1.06);
+
+    opacity: 0.3;
+
+    transition: 0.2s ease-out;
+
+}
+
+
+
+.logiciels p{
+
+    font-size: 1.8em;
+
+    font-weight: 600;
+
+    width: 12.5rem;
+
+    height: 4rem;
+
+    align-items: center;
+
+    text-align: center;
+
+    position: relative;
+
+    vertical-align: center;
+
+    left: 0.5rem;
+
+    bottom: 11.4rem;
+
+    opacity: 0;
+
+}
+
+.langues p{
+
+    font-size: 1.8em;
+
+    font-weight: 600;
+
+    width: 12.5rem;
+
+    height: 4rem;
+
+    align-items: center;
+
+    text-align: center;
+
+    position: relative;
+
+    vertical-align: center;
+
+    bottom: 9.3rem;
+
+    opacity: 0;
+
+}
+
+
+
+
+
+
+
+#passionss{
+    margin-top: 5rem;
+}
+
+
+.passions img{
+    height: 22rem;
+}
+.passions h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.passions p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+.contacts{
+
+    display: flex;
+
+    justify-content: center;
+
+}
+.contacts .txt{
+    width: 30%;
+    margin-right: 5%;
+}
+.contacts .txt p{
+
+    margin: 4rem;
+
+    position: relative;
+
+
+}
+
+.liens img{
+    width: 8rem;
+    margin: 4rem;
+}
+
+.liens{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media(max-width: 1000px){
+
+    .menu{
+        display: none;
+    }
+    h1{
+        font-size: 1.8em;
+        width: 10rem;
+        left: 5rem;
+        position: relative;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    header a{
+        margin: 0.5rem;
+
+    }
+    .reseaux li{
+        display: none;
+    }
+    #cv{
+        display: block;
+        width: 10rem;
+        border-bottom: 3rem solid #434DA0;
+        border-left: 3.8rem solid transparent;
+        height: 0px;
+    }
+    #moncv{
+        top: 0.4rem;
+        text-align: center;
+        margin-left: -4rem;
+        font-size: 1.6em;
+    }
+    #cv:hover{
+        border-bottom: 3rem solid #5F3078;
+        transition: 0.2s ease-out;
+    }
+    header{
+        height: 5.5rem;
+    }
+
+
+    .hexagon2{
+        width: 10rem;
+        height: 20rem;
+    }
+    h3{
+        font-size: 2em;
+    }
+    .haut h3{
+        top: 9.2rem;
+        font-size: 1.8em;
+    }
+    #hexflex1>div{
+        margin: 1rem;
+        margin-top: 4rem;
+        margin-bottom: -10rem;
+    }
+    #hexflex2>div{
+        margin-top: -10rem;
+        margin: 1rem;
+    }
+    #hexflex2, #hexflex1{
+        margin: 0px;
+    }
+    .haut{
+        height: 33.8rem;
+    }
+
+    h2{
+        font-size: 1.8em;
+        width: 80%;
+        margin-left: 0px;
+        background-color: #232120;
+        margin-right: 0px;
+    }
+    .trait{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 3px;
+        width: 30%;
+    }
+
+    .gauche{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .droite{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image .miniamain{
+        height: 12rem;
+        width: 21.33rem;
+        border-radius: 1rem;
+        object-fit: cover;
+        margin: 1rem;
+        margin-bottom: 0px;
+    }
+    .gauche h3, .droite h3{
+        text-align: center;
+        margin: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gauche .txt, .droite .txt{
+        margin: 0px;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .gauche .txt p, .droite .txt p{
+        width: 80%;
+        margin: 2.5rem 0rem 10% 10%;
+        font-size: 1.3em;
+    }
+    .cta{
+        position: relative;
+        top: 6.2rem;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .hexagonpiti2{
+        width: 7rem;
+        height: 14rem;
+        bottom: 4rem;
+        left: -35%;
+        margin-bottom: -7rem;
+    }
+    
+    .separateur{
+        margin-top: 2rem; 
+        width: 65%;
+    }
+
+    footer{
+        margin-top: 2rem;
+        border-top: solid #232120 1rem;
+        border-bottom: solid #232120 4rem;
+        height: 2px;
+    }
+    footer a{
+        position: relative;
+        top: 3.2rem;
+        padding: 0px;
+        background-color: #23212000;
+    }
+
+    #txtprofil{
+        flex-direction: column;
+    } 
+    #txtprofil div{
+        width: 90%;
+    }
+    #txtprofil h4{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.6em;
+    }
+    #txtprofil p{
+        margin: 1rem;
+    }
+    #txtprofil img{
+        height: 50%;
+        margin: 1rem;
+    }
+
+    .droit{
+        margin-top: 0px;
+    }
+
+
+    .logiciels{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logiciels img{
+        margin: 1rem;
+    }
+    .l1{
+        margin-left: 23%;
+        margin-top: 0rem;
+    }
+    .l2{
+        margin-left: 23%;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .competences h4{
+        height: 2rem;
+        text-align: center;
+        width: 16rem;
+        margin: 1rem;
+        margin-left: -1.5rem;
+        margin-bottom: 0px;
+    }
+    .hoverhex{
+        height: 10rem;
+    }
+    .logiciels p{
+        margin: 0px;
+        width: 8rem;
+        height: 5rem;
+        left: 1.3rem;
+        bottom: 8.3rem;
+        opacity: 0;
+    }
+    .competences img{
+        height: 10rem;
+    }
+    .w1{
+        flex-direction: column-reverse;
+        margin-left: 23%;
+        margin-top: 0rem;
+    }
+    .w1 h4{
+        height: 4rem;
+    }
+    .w2{
+        flex-direction: column-reverse;
+        margin-left: 23%;
+        margin-bottom: 2rem;
+        margin-top: 0px;
+    }
+
+    .competences{
+        margin-bottom: 0rem;
+    }
+    .langues{
+        display: flex;
+        justify-content: space-between;
+    }
+    .langues img{
+        height: 9rem;
+        margin-top: 2rem;
+    }
+    .langues p{
+        width: 7.7rem;
+        height: 4rem;
+        bottom: 6.8rem;
+    }
+    #passionss{
+        margin-top: 3rem;
+    }
+
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts .txt{
+        width: 90%;
+        margin-right: 0px;
+    }
+    .contacts .txt p{
+        margin: 1rem;
+        left: 5%;
+    }
+    .liens img{
+        width: 6rem;
+        margin: 1rem;
+    }
+}
