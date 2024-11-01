@@ -185,10 +185,10 @@ h1{
 }
 
 header h3{
-    font-family: Helvetica;
+    font-family: 'Helvetica Light';
     font-weight: 300;
     font-size: 2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
