@@ -202,6 +202,7 @@ ul{
     flex-direction: row;
     align-items: center;
     margin: 0rem;
+    margin-left: 1rem;
 }
 #title *{
     padding: none;
