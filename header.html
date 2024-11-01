@@ -24,23 +24,21 @@
   }
 </style>
 
-<body <?php body_class(); ?>>
+<body>
 
   <header class="header">
 
-    <a href="<?php echo home_url( '/' ); ?>"><h1>ALAN SIVINIANT</h1></a>
+    <a href=""><h1>ALAN SIVINIANT</h1></a>
 
     <ul class="menu">
         
-    <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
-
     </ul>
 
     <ul class="reseaux">
-        <a href="https://www.youtube.com/channel/UCMJFtlKDMVaQC2K7ShBegbg" class="scale"><li><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png" width="30px"></li></a>
-        <a href="https://www.linkedin.com/in/alan-siviniant-a31267202/" class="scale"><li><img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png" width="30px"></li></a>
-        <a href="https://alans-tagioo.itch.io" class="scale"><li><img src="<?php echo get_template_directory_uri(); ?>/img/itch-io.png" width="30px"></li></a>
-        <a href="<?php echo get_template_directory_uri(); ?>/img/Alan Siviniant CV.pdf" ><li id="cv"><p id="moncv">Mon CV</p></li></a>
+        <a href="https://www.youtube.com/channel/UCMJFtlKDMVaQC2K7ShBegbg" class="scale"><li><img src="img/youtube.png" width="30px"></li></a>
+        <a href="https://www.linkedin.com/in/alan-siviniant-a31267202/" class="scale"><li><img src="img/linkedin.png" width="30px"></li></a>
+        <a href="https://alans-tagioo.itch.io" class="scale"><li><img src="img/itch-io.png" width="30px"></li></a>
+        <a href="img/Alan Siviniant CV.pdf" ><li id="cv"><p id="moncv">Mon CV</p></li></a>
     </ul>
 
   </header>
