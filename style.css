@@ -184,6 +184,14 @@ h1{
     width: 22rem;
 }
 
+header h3{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-left: 2rem;
+
+}
+
 ul{
     display: flex;
     align-items: center;
