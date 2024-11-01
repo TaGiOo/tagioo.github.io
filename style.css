@@ -288,7 +288,8 @@ ul{
     display: flex;
     flex-direction: column;
     height: 39rem;
-    background-image: linear-gradient(225.33deg, #232120f4 18.18%, #232120f4 80.88%), url('img/lofi room.png');
+    background-image: linear-gradient(225.33deg, #413d3bf4 18.18%, #494442f4 80.88%), url('img/lofi room.png');
+    background-position: center;
 }
 
 
