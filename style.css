@@ -196,15 +196,16 @@ ul{
     align-items: center;
     font-size: 1.1em;
 }
-.title{
+#title{
     display: flex;
     justify-content: left;
     flex-direction: row;
+    align-items: center;
     margin: 0rem;
 }
-.title *{
+#title *{
     padding: none;
-    margin: 0.2rem;
+    margin: 0.5rem;
 }
 
 
@@ -288,7 +289,7 @@ ul{
     display: flex;
     flex-direction: column;
     height: 39rem;
-    background-image: #232120b4, url('img/lofi room.png');
+    background-image: url('img/lofi room.png');
     background-position: center;
 }
 
@@ -402,12 +403,9 @@ h2{
 }
 
 .txt p{
-
-    margin-top: 3rem;
     text-align: justify;
-    margin-bottom: -8rem;
+    margin-bottom: -10rem;
     font-size: 1.1em;
-
 }
 
 .cta{
