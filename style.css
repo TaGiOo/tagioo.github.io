@@ -199,11 +199,12 @@ ul{
 .title{
     display: flex;
     justify-content: left;
+    flex-direction: row;
     margin: 0rem;
 }
 .title *{
-    padding: 0rem;
-    margin: 0rem;
+    padding: none;
+    margin: 0.2rem;
 }
 
 
@@ -287,8 +288,7 @@ ul{
     display: flex;
     flex-direction: column;
     height: 39rem;
-    background-color: #232120d6;
-    background-image: url('img/lofi room.png');
+    background-image: #232120b4, url('img/lofi room.png');
     background-position: center;
 }
 
