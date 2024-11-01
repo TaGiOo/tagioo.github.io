@@ -188,7 +188,7 @@ header h3{
     font-family: 'Helvetica Light';
     font-weight: 300;
     font-size: 2rem;
-    margin-right: 2rem;
+    margin-right: -2rem;
 
 }
 
@@ -830,12 +830,14 @@ footer a{
     }
     h1{
         font-size: 1.8em;
-        width: 10rem;
-        left: 5rem;
+        width: 11rem;
         position: relative;
         text-align: center;
         padding-top: 0.5rem;
     }
+    header h3{
+        display: none;
+    }    
     header a{
         margin: 0.5rem;
 
