@@ -207,10 +207,8 @@ ul{
     align-items: center;
     font-size: 1.1em;
 }
-.title li{
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-
+.title{
+    align-items: left;
 }
 
 
