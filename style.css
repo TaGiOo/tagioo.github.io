@@ -830,9 +830,9 @@ footer a{
     }
     h1{
         font-size: 1.8em;
-        width: 11rem;
+        width: 10rem;
         position: relative;
-        text-align: center;
+        text-align: left;
         padding-top: 0.5rem;
     }
     header h3{
