@@ -24,7 +24,8 @@ html, body {
 
 
 strong{
-    font-weight: 600;
+    color: #434DA0;
+    font-weight: inherit;
 }
 
 html{
