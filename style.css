@@ -827,10 +827,11 @@ footer a{
         margin-left: 0rem;
     }
     h1{
-        font-size: 1.2em;
+        font-size: 1.3em;
         width: 8rem;
         position: relative;
         text-align: left;
+        padding-top: 0.5rem;
     }
     header h3{
         display: none;
@@ -941,8 +942,8 @@ footer a{
     }
     .cta{
         position: relative;
-        top: 6.2rem;
-        font-size: 1.8em;
+        top: 3.3rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     .hexagonpiti2{
@@ -951,9 +952,6 @@ footer a{
         bottom: 3rem;
         left: -40%;
         margin-bottom: -6rem;
-    }
-    .hexagonpiti2 a{
-        font-size: 1rem;
     }
     
     .separateur{
