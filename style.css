@@ -821,8 +821,8 @@ footer a{
     .menu{
         display: none;
     }
-    .title{
-        margin-left: 0rem;
+    #title{
+        margin-left: 0.5rem;
     }
     h1{
         font-size: 1.3em;
