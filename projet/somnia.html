@@ -58,7 +58,9 @@
 
   <style>
     .haut{
+      height: 39rem;
       background-image: url('../img/Somnia/logo somnia.jpg');
+      background-size: 90rem;
     }
     .hexagon2{
       width: 8rem;
@@ -68,6 +70,17 @@
     }
     #hexflex1>div{
       margin-bottom: -23rem;
+    }
+
+    @media(max-width: 1000px){
+      #hexflex1{
+        display: none;
+      }
+      .haut{
+        height: 12rem;
+        background-size: 26rem;
+        margin-top: 4rem;
+      }
     }
   </style>
 

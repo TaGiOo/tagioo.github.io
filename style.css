@@ -294,9 +294,7 @@ ul{
 .haut{
     display: flex;
     flex-direction: column;
-    height: 39rem;
     background-position: center;
-    background-size: 100rem;
 }
 
 
@@ -321,7 +319,7 @@ h2{
 
     font-size: 2em;
 
-    width: 20%;
+    width: 50%;
 
     text-align: center;
 
@@ -887,9 +885,6 @@ footer a{
     #hexflex2{
         margin-top: 2.5rem;
     }
-    .haut{
-        height: 33.8rem;
-    }
 
     h2{
         font-size: 1.2em;
@@ -924,16 +919,20 @@ footer a{
         margin: 1rem;
         margin-bottom: 0px;
     }
+    .image .miniminia{
+        height: 6rem;
+        border-radius: 0.7rem;
+        margin: 0.3rem;
+        margin-bottom: 1rem;
+    }
+    
     .gauche h3, .droite h3{
         text-align: center;
-        margin: 0rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin: 1rem;
+        margin-bottom: 0rem;
     }
     .gauche .txt, .droite .txt{
         margin: 0px;
-        margin-top: 2rem;
-        margin-bottom: 1.5rem;
     }
     .gauche .txt p, .droite .txt p{
         width: 80%;
@@ -951,7 +950,7 @@ footer a{
         height: 8rem;
         bottom: 3rem;
         left: -40%;
-        margin-bottom: -6rem;
+        margin-bottom: -4rem;
     }
     
     .separateur{
