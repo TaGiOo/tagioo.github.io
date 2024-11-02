@@ -124,9 +124,6 @@ html{
 .hexagon2{
 
     margin-right: 0px;
-
-    width: 12.5rem;
-
     height: 25rem;
 
   }
@@ -299,6 +296,7 @@ ul{
     flex-direction: column;
     height: 39rem;
     background-position: center;
+    background-size: 90rem;
 }
 
 
