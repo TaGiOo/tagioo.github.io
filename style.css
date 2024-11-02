@@ -172,7 +172,6 @@ header{
     display: flex;
     justify-content: space-around;
     z-index: 100;
-    border-bottom: white solid 2px;
 }
 
 h1{
