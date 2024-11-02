@@ -823,12 +823,14 @@ footer a{
     .menu{
         display: none;
     }
+    .title{
+        margin-left: 0rem;
+    }
     h1{
-        font-size: 1.8em;
-        width: 10rem;
+        font-size: 1.2em;
+        width: 8rem;
         position: relative;
         text-align: left;
-        padding-top: 0.5rem;
     }
     header h3{
         display: none;
@@ -857,7 +859,7 @@ footer a{
         transition: 0.2s ease-out;
     }
     header{
-        height: 5.5rem;
+        height: 4rem;
     }
 
 
@@ -881,19 +883,22 @@ footer a{
         margin-top: -10rem;
         margin: 1rem;
     }
-    #hexflex2, #hexflex1{
-        margin: 0px;
+    #hexflex2{
+        margin-top: 2.5rem;
     }
     .haut{
         height: 33.8rem;
     }
 
     h2{
-        font-size: 1.8em;
-        width: 80%;
+        font-size: 1.2em;
+        width: 20%;
         margin-left: 0px;
         background-color: #232120;
         margin-right: 0px;
+    }
+    .titre{
+        height: 3rem;
     }
     .trait{
         margin-left: 0px;
@@ -931,8 +936,8 @@ footer a{
     }
     .gauche .txt p, .droite .txt p{
         width: 80%;
-        margin: 2.5rem 0rem 10% 10%;
-        font-size: 1.3em;
+        margin: 1.5rem 0rem 10% 10%;
+        font-size: 1rem;
     }
     .cta{
         position: relative;
@@ -941,11 +946,14 @@ footer a{
         text-align: center;
     }
     .hexagonpiti2{
-        width: 7rem;
-        height: 14rem;
-        bottom: 4rem;
-        left: -35%;
-        margin-bottom: -7rem;
+        width: 4rem;
+        height: 8rem;
+        bottom: 3rem;
+        left: -40%;
+        margin-bottom: -6rem;
+    }
+    .hexagonpiti2 a{
+        font-size: 1rem;
     }
     
     .separateur{
@@ -955,7 +963,7 @@ footer a{
 
     footer{
         margin-top: 2rem;
-        border-top: solid #232120 1rem;
+        border-top: solid #232120 0rem;
         border-bottom: solid #232120 4rem;
         height: 2px;
     }
