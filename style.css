@@ -24,7 +24,7 @@ html, body {
 
 
 strong{
-    color: #434DA0;
+    color: #4773C1;
     font-weight: inherit;
 }
 
@@ -407,6 +407,10 @@ h2{
 .txt p{
     text-align: justify;
     font-size: 1.1em;
+}
+
+.projectpage{
+    height: 12rem;
 }
 
 .cta{
