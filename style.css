@@ -29,6 +29,7 @@ strong{
 }
 .italink{
     color:#9E45CD;
+    text-decoration: underline;
 }
 
 html{
@@ -188,7 +189,7 @@ h1{
 }
 
 header h3{
-    font-family: 'Helvetica Light';
+    font-family: 'Aktiv Grotesk Light';
     font-weight: 300;
     font-size: 1.1rem;
     margin: 0.5rem;
