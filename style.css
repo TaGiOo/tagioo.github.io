@@ -179,13 +179,16 @@ h1{
     font-family: 'Helvetica';
     font-weight: 900;
     width: 22rem;
+    margin: 0.5rem;
     margin-bottom: 0.1rem;
+    
 }
 
 header h3{
     font-family: 'Helvetica Light';
     font-weight: 300;
     font-size: 1.1rem;
+    margin: 0.5rem;
     margin-top: 0rem;
 
 }
@@ -210,7 +213,7 @@ ul{
     margin: 0rem;
     margin-left: 1rem;
 }
-#title *{
+#title img{
     padding: none;
     margin: 0.5rem;
 }
