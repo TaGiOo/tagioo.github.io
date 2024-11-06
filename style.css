@@ -27,6 +27,9 @@ strong{
     color: #4773C1;
     font-weight: inherit;
 }
+em{
+    color:#9E45CD;
+}
 
 html{
 
@@ -190,6 +193,7 @@ header h3{
     font-size: 1.1rem;
     margin: 0.5rem;
     margin-top: -0.3rem;
+    color: white;
 
 }
 
