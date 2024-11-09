@@ -810,10 +810,11 @@ footer a{
 
 
 }
-
+.liens a{
+    margin: 1rem;
+}
 .liens img{
-    width: 8rem;
-    margin: 4rem;
+    width: 6rem;
 }
 
 .liens{
@@ -1094,8 +1095,10 @@ footer a{
         margin: 1rem;
         left: 5%;
     }
+    .liens a{
+        margin: 1rem;
+    }
     .liens img{
         width: 6rem;
-        margin: 1rem;
     }
 }
