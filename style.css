@@ -838,11 +838,12 @@ footer a{
         margin-left: 0.5rem;
     }
     h1{
-        font-size: 1.3em;
+        font-size: 1.4em;
         width: 8rem;
         position: relative;
         text-align: left;
-        padding-top: 0.5rem;
+        padding-top: 0rem;
+        margin-top: 0rem;
     }
     header h3{
         display: none;
